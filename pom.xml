@@ -10,9 +10,14 @@
     </parent>
     <groupId>com.zg.handsome</groupId>
     <artifactId>exercise</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0</version>
     <name>exercise</name>
     <description>Demo project for Spring Boot</description>
+
+    <modules>
+        <module>lambda</module>
+        <module>patterns</module>
+    </modules>
 
     <properties>
         <java.version>1.8</java.version>
