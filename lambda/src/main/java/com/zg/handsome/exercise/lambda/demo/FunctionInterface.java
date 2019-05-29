@@ -20,7 +20,7 @@ public class FunctionInterface {
     @Test
     public void testLambda() {
         List<String> demoList = Arrays.asList("格瑞", "Mr.ming", "金");
-        rollCall(demoList,checker -> checker.startsWith("z"),out -> System.out.println(out));
+        rollCall(demoList,checker -> checker.startsWith("m"),out -> System.out.println(out));
     }
 
     public void rollCall(List<? extends String> list, Checker checker,Out out){
