@@ -1,6 +1,7 @@
 package com.zg.handsome.exercise.lambda.demo;
 
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.List;

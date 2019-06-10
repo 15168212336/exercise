@@ -27,7 +27,7 @@ public class MyScheduleTask implements TaskBase{
     /**
      * 启动定时器  "0/5 * * * * *" 5次/s
      */
-    @GetMapping("startTask/")
+    @GetMapping("startTask")
     @Override
     public String startSchedule(@RequestParam("timing") String timing) {
         future = threadPoolTaskScheduler.schedule(new MySchedule("test"), new CronTrigger(timing));
